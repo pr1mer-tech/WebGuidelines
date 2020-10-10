@@ -46,7 +46,7 @@ export default function Home({ categories }) {
 import fs from "fs"
 export async function getStaticProps() {
     function pages(dir) {
-        return fs.readdirSync(`${process.cwd()}/public/${dir}`).map(file => {
+        return fs.readdirSync(`${process.cwd()}/${dir}`).map(file => {
             return {
                 name: file.split(".")[0],
                 url: `/${dir}/${file.split(".")[0]}`
