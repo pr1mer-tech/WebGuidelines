@@ -17,9 +17,52 @@ export default function Pages({ markdown, categories }) {
 }
 
 export async function getStaticPaths() {
+    const fs = require('fs');
+
+    function pages(dir) {
+        return fs.readdirSync(`${process.cwd()}/${dir}`).map(file => {
+            return {
+                name: file.split(".")[0],
+                url: `/${dir}/${file.split(".")[0]}`
+            }
+        });
+    }
+
+    const categories = {
+        "01-Web": {
+            name: "Web",
+            pages: pages("01-Web")
+        },
+        "02-Architecture": {
+            name: "Architecture",
+            pages: pages("02-Architecture")
+        },
+        "03-UserInteraction": {
+            name: "User Interaction",
+            pages: pages("03-UserInteraction")
+        },
+        "04-VisualDesign": {
+            name: "Visual Design",
+            pages: pages("04-VisualDesign")
+        },
+        "05-IconsImages": {
+            name: "Icons and Images",
+            pages: pages("05-IconsImages")
+        }
+    }
+
+    let paths = []
+    for (let [key, value] of Object.entries(categories)) {
+        value.pages.forEach(page => {
+            paths.push({
+                params: { pages: [key, page.name.split(" ").join("%20")] }
+            })
+        });
+    }
+
     return {
-        paths: [],
-        fallback: true
+        paths,
+        fallback: false
     };
 }
 export async function getStaticProps({
