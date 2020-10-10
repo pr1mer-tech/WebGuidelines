@@ -1,12 +1,8 @@
-import Head from 'next/head'
 import Menu from '../components/Menu'
 import { Text, Note, Page, Grid } from "@geist-ui/react";
 
 export default function Home({ categories }) {
   return (<Page>
-    <Head>
-      <title>Web Guidelines</title>
-    </Head>
     <Grid.Container gap={2} justify="center">
         <Grid xs={24} md={6}>
             <Menu categories={ categories }/>
