@@ -1,80 +1,96 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: var(--normalFont);
+	padding: 0;
+	margin: 0;
+	font-family: var(--normalFont);
 }
 
 body {
-  // padding-top: 100px !important;
-  // margin-bottom: 500px !important;
-  background: var(--background);
+	// padding-top: 100px !important;
+	// margin-bottom: 500px !important;
+	background: var(--background);
 }
 
 #__next {
-  background: var(--background);
+	background: var(--background);
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 p.magnify {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
 }
 
 * {
-  z-index: 10;
+	z-index: 10;
 }
 
 :root {
-  color-scheme: light dark;
-  --blue: #1277EB;
-  --background: white;
-  --semi-white: #eee;
-  --text-color: #000;
-  --footer: #fafafa;
-  --secondary-text: rgb(102, 102, 102);
-  --transparentBack: rgba(255,255,255,0.85);
-  --normalFont: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	color-scheme: light dark;
+	--blue: #1277EB;
+	--background: white;
+	--semi-white: #eee;
+	--text-color: #000;
+	--footer: #fafafa;
+	--secondary-text: rgb(102, 102, 102);
+	--transparentBack: rgba(255, 255, 255, 0.85);
+	--normalFont: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-      --background: #1e1e1e;
-      --transparentBack: rgba(30,30,30,0.85);
-      --semi-white: #333;
-      --text-color: #fff;
-      --footer: #000;
-      --secondary-text: #eee;
-  }
+	:root {
+		--background: #1e1e1e;
+		--transparentBack: rgba(30, 30, 30, 0.85);
+		--semi-white: #333;
+		--text-color: #fff;
+		--footer: #000;
+		--secondary-text: #eee;
+	}
+}
+
+.menu .small-menu {
+	display: none;
+}
+
+@media (max-width: 900px) {
+	.menu {
+		.big-menu {
+			display: none;
+		}
+		.small-menu {
+			display: block;
+			transform: translateY(calc(16pt * -2.5));
+		}
+	}
 }
 
 // Code highlight
 .hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  background: #fff;
-  color: black;
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	background: #fff;
+	color: black;
 }
 
 /* Gray DOCTYPE selectors like WebKit */
 .xml .hljs-meta {
-  color: #c0c0c0;
+	color: #c0c0c0;
 }
 
 .hljs-comment,
 .hljs-quote {
-  color: #007400;
+	color: #007400;
 }
 
 .hljs-tag,
@@ -83,35 +99,35 @@ p.magnify {
 .hljs-selector-tag,
 .hljs-literal,
 .hljs-name {
-  color: #aa0d91;
+	color: #aa0d91;
 }
 
 .hljs-variable,
 .hljs-template-variable {
-  color: #3F6E74;
+	color: #3F6E74;
 }
 
 .hljs-code,
 .hljs-string,
 .hljs-meta-string {
-  color: #c41a16;
+	color: #c41a16;
 }
 
 .hljs-regexp,
 .hljs-link {
-  color: #0E0EFF;
+	color: #0E0EFF;
 }
 
 .hljs-title,
 .hljs-symbol,
 .hljs-bullet,
 .hljs-number {
-  color: #1c00cf;
+	color: #1c00cf;
 }
 
 .hljs-section,
 .hljs-meta {
-  color: #643820;
+	color: #643820;
 }
 
 
@@ -120,40 +136,40 @@ p.magnify {
 .hljs-built_in,
 .hljs-builtin-name,
 .hljs-params {
-  color: #5c2699;
+	color: #5c2699;
 }
 
 .hljs-attr {
-  color: #836C28;
+	color: #836C28;
 }
 
 .hljs-subst {
-  color: #000;
+	color: #000;
 }
 
 .hljs-formula {
-  background-color: #eee;
-  font-style: italic;
+	background-color: #eee;
+	font-style: italic;
 }
 
 .hljs-addition {
-  background-color: #baeeba;
+	background-color: #baeeba;
 }
 
 .hljs-deletion {
-  background-color: #ffc8bd;
+	background-color: #ffc8bd;
 }
 
 .hljs-selector-id,
 .hljs-selector-class {
-  color: #9b703f;
+	color: #9b703f;
 }
 
 .hljs-doctag,
 .hljs-strong {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .hljs-emphasis {
-  font-style: italic;
+	font-style: italic;
 }

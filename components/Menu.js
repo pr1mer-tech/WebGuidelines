@@ -1,8 +1,6 @@
 import { Collapse, Description, Divider, Link, Row, Spacer, Text, useMediaQuery } from "@geist-ui/react";
 import NextLink from "next/link"
 export default function Menu({ categories }) {
-    const isXS = useMediaQuery('sm', { match: 'down' })
-
     const menu = <>
     <NextLink href="/">
         <Text h4>Web Guidelines</Text>
@@ -23,12 +21,13 @@ export default function Menu({ categories }) {
         }/>)
     }
     </>
-
-    const collapse = <Collapse title="Menu" style={{
-        position: "relative",
-        top: "calc(-16pt * 2.5)"
-    }}>
-        { menu }
-    </Collapse>
-    return isXS ? collapse : menu
+    
+    return <div className="menu">
+        <Collapse title="Menu" className="small-menu">
+            { menu }
+        </Collapse>
+        <div className="big-menu">
+            { menu }
+        </div>
+    </div>
 }
