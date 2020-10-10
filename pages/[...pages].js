@@ -37,12 +37,12 @@ export async function getStaticProps({
         }
     });
 
-    const path = `${process.cwd()}/${params.pages[0]}/${params.pages[1]}.md`
+    const path = `${process.cwd()}/public/${params.pages[0]}/${params.pages[1]}.md`
     const markdown = await readFile(path, 'utf8')
     const html = marked(markdown)
 
     function pages(dir) {
-        return fs.readdirSync(`${process.cwd()}/${dir}`).map(file => {
+        return fs.readdirSync(`${process.cwd()}/public/${dir}`).map(file => {
             return {
                 name: file.split(".")[0],
                 url: `/${dir}/${file.split(".")[0]}`
