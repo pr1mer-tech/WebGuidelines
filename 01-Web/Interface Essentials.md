@@ -1,0 +1,8 @@
+# Interface Essentials
+Unlike native applications that can be built with different frameworks or UI Libraries, web pages must rely on HTML to describe their content, CSS for formatting and JavaScript for client-side interactions. These pages can be created as is or generated specifically for the client. It is therefore important to make the difference between front-end (client) and back-end (server). Ensuring continuity between the two is therefore crucial to properly respond to interactions between the user and the page. This document will focus on graphical interface, also known as the front-end. 
+
+We will call a **View** everything that contains the primary content people see, such as text, graphics, animations, and interactive elements. Views are HTML  elements, therefore responsible for their own layout, position and behaviours.
+
+We will call a **Control** any views that initiate actions and convey information. Buttons, switches, text fields, and progress indicators are examples of controls.
+
+Finally we will call **Links** any controls that initiate a location change or major change within the interface. Links allow us to link documents to other documents or resources, link to specific parts of documents, or make apps available at a web address. Almost any web content can be converted to a link so that when clicked or otherwise activated the web browser goes to another web address (URL).

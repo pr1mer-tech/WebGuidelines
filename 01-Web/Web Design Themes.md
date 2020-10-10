@@ -1,0 +1,10 @@
+# Web Design Themes
+As a web designer, you have the opportunity to deliver an extraordinary website that rises to the top of the search page. To do so, you’ll need to meet high expectations for quality and functionality. At Pr1mer, we created theses guidelines to help you meet those expectations. Although they follow our interpretation of the requirements of the modern web, we have been very meticulous in making sure that they are usable in most cases.
+
+Three primary themes differentiate the web from other platforms:
+
+- **Versatility**. The web is an extremely versatile platform: absolutely everything can be a website. People go on the web to find information (newspapers, blogs, Wikipedia, ...), have fun (YouTube, Netflix, ...), communicate (social networks), shop (e-commerce), or even work (Google Docs, Excel, Keynote, ...).
+
+- **Punctuality**. When using the web, people expect to find what they were looking for in a matter of seconds. There is no time for disruptive elements or time-consuming processes. The web pages must be clear and expressive so that the end user can determine for himself of the interest he may have. It’s important to make all of your users’ most common tasks easily available.
+
+- **Adaptability and flexibility**. Regardless of your operating system, device, or location, you expect every web page to fit your use perfectly. Recently we have seen a huge increase in traffic on mobile devices, so it is important to support all screen formats. A flexible web app facilitates learning through discoverability.

@@ -1,0 +1,6 @@
+# Authentification
+You should only ask people to authenticate in exchange for value, such as the ability to personalize the experience, access additional features, purchase content, or synchronize data. If your website requires authentication, use external providers as much as possible. Try to avoid storing sensitive information like passwords or personal data, always retrieve information on the fly via those providers to deliver a secure and consistent experience.
+
+**Delay sign-in as long as possible.** People often abandon websites when they are forced to sign in before doing anything useful. Give them a chance to discover what your website can do before they sign in.
+
+**Explain the benefits of authentication and how to sign up for your service.** If your website requires authentication, display a brief, friendly explanation on the login screen describing the reasons for the requirement and its benefits. Also, remember that not everyone using your website has an account from the start. Make sure you explain how to get one, or provide a simple way to sign up.

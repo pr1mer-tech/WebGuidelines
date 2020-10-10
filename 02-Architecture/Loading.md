@@ -1,0 +1,6 @@
+# Loading
+It is often necessary to load certain information that could not be displayed at the time of launch. For example, a social network that needs to reload other users' posts. But when content is loading, a blank or static screen can make it seem like your site is frozen, resulting in confusion and frustration, and potentially causing people to leave your site.
+
+**Make it clear when loading is occurring.** At minimum, show an activity spinner that communicates something is happening. Even better, display explicit progress so people can gauge how long they’ll be waiting.
+
+**Be optimistic wherever it’s possible.** Always be sure to consider the success of each request. The user will be more inclined to continue browsing if he is certain that something is going to happen. For example, for a social network, the like button should be instantaneous (it should not show a load). Or for a dynamic interface, it should show a skeleton for text and images, to indicate a short loading and soon finished. In case of error, show an alert with a human readable description.
