@@ -10,7 +10,7 @@ export default function Pages({ markdown, categories }) {
                 {/* {JSON.stringify(categories)} */}
             </Grid>
             <Grid xs={24} md={18}>
-                <p dangerouslySetInnerHTML={{ __html: markdown }}/>
+                <div dangerouslySetInnerHTML={{ __html: markdown }}/> {/* You can't use a <p> inside a <p> */}
             </Grid>
         </Grid.Container>
     </Page>
