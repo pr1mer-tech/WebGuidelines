@@ -1,7 +1,7 @@
 # Help
 Ideally, people can figure out how to use your website without a guide. However, even in a highly intuitive site, users sometimes need help learning advanced and secondary features. When called for, your site can offer assistance in the form of help tags and documentation. Help tags allow you to provide temporary, context-sensitive help, whereas documentation allows you to provide a more thorough discussion of a topic or task.
 
-**Avoid restricting user actions.** Unless you’re creating an app for children in which it can be appropriate to restrict the user’s scope of action, let people do what they want without unnecessary interference.
+**Avoid restricting user actions.** Unless you’re creating a website for children in which it can be appropriate to restrict the user’s scope of action, let people do what they want without unnecessary interference.
 
 ## Help Tags (Tooltips)
 Help tags, often referred to as tooltips, succinctly describe how to use controls without shifting people’s focus away from the primary interface. Help tags appear when the user positions the pointer over a control for a few seconds. For example, you can show a tooltip when a user is hovering a button by using the `title` attribute in HTML.

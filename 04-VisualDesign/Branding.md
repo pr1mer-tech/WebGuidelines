@@ -1,7 +1,7 @@
 # Branding
 Successful branding involves more than just adding brand assets to your website. Great websites express unique brand identity through smart font, color, and image decisions. Provide enough branding to give people context in your site, but not so much that it becomes a distraction.
 
-**Incorporate refined, unobtrusive branding.** People use your website to be entertained, get information, or get things done, not to watch an advertisement. For the best experience, subtly incorporate your brand through your site’s design. Using colors from your logo throughout your interface is one great way to provide context in your app.
+**Incorporate refined, unobtrusive branding.** People use your website to be entertained, get information, or get things done, not to watch an advertisement. For the best experience, subtly incorporate your brand through your site’s design. Using colors from your logo throughout your interface is one great way to provide context in your site.
 
 **Don’t let branding get in the way of great design.** Above all, make your website feel like other websites. Ensure that it's intuitive, easy to navigate, easy to use, and focuses on content. Even if your website is available on other platforms through native apps for example, avoid diluting your design by focusing too much on consistent branding.
 

@@ -5,9 +5,9 @@ Users expect the site to respond correctly according to the device they are usin
 he keyboard is an essential input device for entering text, navigating, and initiating actions.
 ![](https://developer.apple.com/design/human-interface-guidelines/macos/images/keyboard_2x.png)
 ### Keyboard-Only Interaction
-Some people prefer using a keyboard over a mouse or a trackpad. To ensure your app can be used by all users, make sure its core features are accessible using the keyboard.
+Some people prefer using a keyboard over a mouse or a trackpad. To ensure your site can be used by all users, make sure its core features are accessible using the keyboard.
 
-**Respect standard keyboard shortcuts and create app-specific shortcuts for frequently used commands.** Keyboard shortcuts let people trigger actions by pressing specific key combination.
+**Respect standard keyboard shortcuts and create specific shortcuts for frequently used commands.** Keyboard shortcuts let people trigger actions by pressing specific key combination.
 
 **In general, don’t override standard keyboard shortcuts.** Users may become confused if the shortcuts they know work differently in your site. Only in very rare cases does it make sense to redefine a common shortcut. For example, if you need to copy something that can’t be handle by the system’s pasteboard, then it can make sense to implement your own pasteboard and override the `Cmd+C` shortcut. Another option might be to let the user choose their own keyboard shortcuts.
 

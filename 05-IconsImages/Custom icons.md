@@ -5,7 +5,7 @@ To accommodate your needs, you may need icons in your interface. These icons can
 
 **Create simple, recognizable designs.** Too many details can make an icon appear sloppy or unreadable. Strive for a design most people will interpret correctly and won’t find offensive.
 
-**Keep your icons consistent.** Whether you use only custom icons or mix custom and system icons, all icons in your app should be the same in terms of size, level of detail, perspective, and stroke weight.
+**Keep your icons consistent.** Whether you use only custom icons or mix custom and system icons, all icons in your website should be the same in terms of size, level of detail, perspective, and stroke weight.
 
 **Make sure icons are legible.** In general, solid icons tend to be clearer than outlined icons. If an icon must includes lines, coordinate the weight with other icons and your site’s typography.
 
