@@ -1,7 +1,7 @@
 # Onboarding
 In more complex sites, it can be interesting to propose a tutorial or an explanation. An optional onboarding experience that’s fast, fun, and educational can help people get the most from your site without getting in their way.
 
-**Provide onboarding that helps people enjoy your site**, not just set it up. People can appreciate the opportunity to learn more about your site, but they also expect it to just work. Avoid including setup or licensing details in your onboarding experience. For guidance, see [Launching](/launching).
+**Provide onboarding that helps people enjoy your site**, not just set it up. People can appreciate the opportunity to learn more about your site, but they also expect it to just work. Avoid including setup or licensing details in your onboarding experience. For guidance, see [Launching](/02-Architecture/Launching).
 
 **Get to the action quickly.** After the browser renders the first screen, let people dive right in and start enjoying your site. If you need to provide tutorials or intro sequences, give people a way to skip them and don't automatically show them to returning users.
 
