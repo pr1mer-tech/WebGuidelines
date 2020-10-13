@@ -48,6 +48,10 @@ export async function getStaticPaths() {
         "05-IconsImages": {
             name: "Icons and Images",
             pages: pages("05-IconsImages")
+        },
+        "06-PageAnatomy": {
+            name: "Page Anatomy",
+            pages: pages("06-PageAnatomy")
         }
     }
 
@@ -113,6 +117,10 @@ export async function getStaticProps({
         "05-IconsImages": {
             name: "Icons and Images",
             pages: pages("05-IconsImages")
+        },
+        "06-PageAnatomy": {
+            name: "Page Anatomy",
+            pages: pages("06-PageAnatomy")
         }
     }
 
