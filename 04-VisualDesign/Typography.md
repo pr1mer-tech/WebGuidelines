@@ -3,7 +3,7 @@ Text represents more than 90% of all information on the web. Typography is a cor
 ![](/Capture%20d%E2%80%99e%CC%81cran%202020-10-13%20a%CC%80%2020.03.59.png)
 Communication plays a vital role in design. In order to be successful, your products have to communicate their intent and purpose clearly. Typography helps design to deliver information to people. Font size, font width, font color, and line lengths — all elements of typography work together to create a great user experience.
 
-**Avoid using more than three font families.** Using more than three font families simultaneously can make your layout look busy.
+**Avoid using three or more font families.** Using more than two font families simultaneously can make your layout look busy. Using three font families isn't recommended, using more is strictly forbidden.
 
 **Start by selecting a typeface for your body text.** The typeface you choose to use for body text will affect the decisions of any other typeface in your design. Select typeface for headlines only after you will be confident with a typeface for body text.
 
