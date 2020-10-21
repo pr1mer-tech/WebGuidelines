@@ -1,6 +1,8 @@
 import Menu from '../components/Menu'
 import { Text, Note, Page, Grid } from "@geist-ui/react";
 
+export const config = { amp: 'hybrid' }
+
 export default function Home({ categories }) {
   return (<Page>
     <Grid.Container gap={2} justify="center">
