@@ -1,9 +1,6 @@
 import { Collapse, Description, Divider, Link, Row, Spacer, Text, useMediaQuery } from "@geist-ui/react";
 import NextLink from "next/link"
-import { useAmp } from 'next/amp'
-
 export default function Menu({ categories }) {
-    const isAmp = useAmp()
     const menu = <>
     <NextLink href="/">
         <Text h4>Web Guidelines</Text>
@@ -26,13 +23,9 @@ export default function Menu({ categories }) {
     </>
     
     return <div className="menu">
-        {
-            !isAmp &&
-            <Collapse title="Menu" className="small-menu">
-                { menu }
-            </Collapse>
-        }
-        
+        <Collapse title="Menu" className="small-menu">
+            { menu }
+        </Collapse>
         <div className="big-menu">
             { menu }
         </div>
