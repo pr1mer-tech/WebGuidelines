@@ -3,6 +3,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+out/
 
 # Icon must end with two \r
 Icon
@@ -182,3 +183,5 @@ yarn-error.log*
 
 # vercel
 .vercel
+/.fab
+/fab.zip

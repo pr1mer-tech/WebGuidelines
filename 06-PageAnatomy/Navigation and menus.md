@@ -20,3 +20,5 @@ It is common to want to have a bar at the top of your page that contains several
 **Think of all screen sizes.** Always make sure that your navigation bar is displayed as well on mobile as on computer. We recommend the hamburger menu when the screen becomes too small to display the entire navigation template, so keep only the logo, the hamburger and possibly the buttons.
 
 **You can include a contact button.** Your users might want to contact you. If it’s a common thing (like contact sales for example), you might want to add a contact button on the right of the navigation bar.
+
+**Use only top-level links or categories.** Regardless of navigation style, it’s essential that the path through content is logical, predictable, and easy to follow. Never mix page links and links to other pages. In general, you should never propose links to the same page, people know how to scroll. When it is too long, separate the content into several pages. 
