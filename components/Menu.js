@@ -3,7 +3,7 @@ import NextLink from "next/link"
 export default function Menu({ categories }) {
     const menu = <>
     <NextLink href="/">
-        <Text h4>Web Guidelines</Text>
+        <Text h4 style={{ cursor: "pointer" }}>Web Guidelines</Text>
     </NextLink>
     <Divider />
     { categories && 
