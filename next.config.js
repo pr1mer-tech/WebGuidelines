@@ -1,6 +1,5 @@
-const fs = require("fs/promises")
+const fs = require("fs")
 const path = require("path")
-const fsSync = require("fs");
 const { createSitemap } = require("esm")(module)("./pages/sitemap.xml");
 
 function pages(dir) {
@@ -42,7 +41,7 @@ module.exports = {
 		{ dev, dir, outDir, distDir, buildId }
 	) {
 		delete defaultPathMap['/sitemap.xml'];
-		await fs.writeFile(path.join(outDir, '/sitemap.xml'), createSitemap(JSON.parse(pagesList)))
+		fs.writeFileSync(path.join(outDir, '/sitemap.xml'), createSitemap(JSON.parse(pagesList)))
 
 		return defaultPathMap
 	}
