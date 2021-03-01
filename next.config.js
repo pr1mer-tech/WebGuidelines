@@ -3,7 +3,7 @@ const path = require("path")
 const { createSitemap } = require("esm")(module)("./pages/sitemap.xml");
 
 function pages(dir) {
-	return fsSync.readdirSync(`${process.cwd()}/${dir}`).map(file => {
+	return fs.readdirSync(`${process.cwd()}/${dir}`).map(file => {
 		return {
 			name: file.split(".")[0],
 			url: `/${dir}/${file.split(".")[0]}`
