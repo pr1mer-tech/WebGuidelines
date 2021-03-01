@@ -12,7 +12,7 @@ export default function Menu({ categories }) {
             {
                 category.pages.map(page => <Row>
                     <NextLink key={page.url} href={ page.url }>
-                        <Link block href={ page.url }>{ page.name }</Link>
+                        <Link block href={ page.url }>{ page.name.split("-").join(" ") }</Link>
                     </NextLink>
                 </Row>)
             }
