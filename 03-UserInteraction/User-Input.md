@@ -2,7 +2,7 @@
 Users expect the site to respond correctly according to the device they are using. Your site must therefore adapt to the different ways of handling inputs.
 
 ## Keyboard
-he keyboard is an essential input device for entering text, navigating, and initiating actions.
+The keyboard is an essential input device for entering text, navigating, and initiating actions.
 ![](https://developer.apple.com/design/human-interface-guidelines/macos/images/keyboard_2x.png)
 ### Keyboard-Only Interaction
 Some people prefer using a keyboard over a mouse or a trackpad. To ensure your site can be used by all users, make sure its core features are accessible using the keyboard.
