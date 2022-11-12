@@ -9,14 +9,11 @@
     "export": "next export"
   },
   "dependencies": {
-    "@geist-ui/react": "^2.1.0-canary.0",
-    "esm": "^3.2.25",
-    "highlight.js": "^10.2.1",
-    "marked": "^1.2.0",
-    "next": "^10.0.0",
-    "nextjs-progressbar": "^0.0.6",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "sass": "^1.27.0"
+    "next": "12.3.2",
+    "nextra": "^2.0.0-alpha.23",
+    "nextra-theme-docs": "^2.0.0-alpha.23",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.55.0"
   }
 }
