@@ -1,7 +1,7 @@
 # Footer
 The purpose of a website footer is to help visitors by adding information and navigation options at the bottom of web pages. While they remain an optional element, you’ll definitely want to include them on large websites.
 
-> These are important choices because footers are highly visible. A lot of visitors see them. A study by [Chartbeat]((http://blog.chartbeat.com/2013/08/12/scroll-behavior-across-the-web/) looked at 25 million website visits and found that visitors scroll down thousands of pixels. No page is too tall, no footer too far.
+> These are important choices because footers are highly visible. A lot of visitors see them. A study by [Chartbeat](http://blog.chartbeat.com/2013/08/12/scroll-behavior-across-the-web/) looked at 25 million website visits and found that visitors scroll down thousands of pixels. No page is too tall, no footer too far.
 
 **Include the copyright.** If your footer had just one element, this might be it. The year and the copyright symbol. It’s a weak but easy protection against website plagiarism.
 > Make sure the year is correct, you might want to include some code to keep the year updated.
