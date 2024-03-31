@@ -32,3 +32,5 @@ Communication plays a vital role in design. In order to be successful, your prod
 **Make sure that the selected fonts work well together.** The font families you select should complement each other. Tools like [FontPair](https://fontpair.co/) or [TypeWolf](https://www.typewolf.com/) can simplify the process of finding the right font combination.
 
 **Avoid creating images with text.** The text becomes unmanageable—it becomes hard to quickly adjust the typographic system because you need to change the images too. Instead, it’s better to use text positioned over the image using CSS style property.
+
+**Use the platform's anti-aliasing.** Not all platforms render fonts the same way. That's why design tools like [Figma](https://forum.figma.com/t/why-does-a-font-weight-in-figma-seem-lighter-than-the-same-weight-in-the-browser/2207) implement their own anti-aliasing. Developers should expect small differences in font rendering across platforms.
