@@ -1,6 +1,7 @@
 # Sidebars
+
 On larger displays, a sidebar provides app-level navigation and quick access to top-level collections of content in your website. Selecting an item in the sidebar allows people to navigate to a specific piece of content. A sidebar can be used in combination with a navigation bar and a footer, but avoid putting too much links. You can also use the sidebar in your UI to include all your buttons and options, like in Pages or Keynote for example.
-![](/Capture%20d%E2%80%99e%CC%81cran%202020-10-13%20a%CC%80%2019.30.26.png)
+![](https://images.pr1mer.tech/guidelines/Capture%20d%E2%80%99e%CC%81cran%202020-10-13%20a%CC%80%2019.30.26.png)
 But using a sidebar can be an expensive choice in development time when you need to adapt your site on mobile. Reserve the sidebar for the interfaces where it makes sense to optimize the time you spend on your website.
 
 **Use a sidebar to organize information at the website level.** A sidebar is a good way to flatten your information hierarchy and provide access to several peer information categories or modes at the same time. Use a sidebar for quick navigation to the key parts of your site or top-level collections of content like pages and important categories.
